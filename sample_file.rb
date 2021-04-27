@@ -1,0 +1,3 @@
+def sample
+
+end
