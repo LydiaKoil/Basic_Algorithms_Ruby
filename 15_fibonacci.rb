@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def fibonacci(num)
-  return num if num.zero? || num == 1
+  return num if num <= 1
 
   fibonacci(num - 1) + fibonacci(num - 2)
 end
