@@ -10,4 +10,4 @@ def next_letter(letter)
   new_string
 end
 
-print next_letter('Hello')
+
