@@ -8,8 +8,7 @@ def delete_occurrences(arr, max)
     new_arr << num unless hash[num] > max
   end
 
-  puts new_arr
-  puts hash
+  new_arr
 end
 # delete_occurrences([1, 1, 1, 1], 2)
 # delete_occurrences([true, true, true], 3)
